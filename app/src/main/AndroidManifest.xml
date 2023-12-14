@@ -8,6 +8,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="Todo List"
+
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoList_app"
@@ -16,7 +17,7 @@
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
-            android:label="@string/title_activity_fullscreen"
+            android:label="Todo_List"
             android:theme="@style/Theme.TodoList_app.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
